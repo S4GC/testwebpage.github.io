@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Reina del Sur.</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="La Reina del Sur">
+    <meta name="description"
+        content="La Reina del Sur, Orgullo de nuestras manos.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="La Reina del Sur">
+    <meta property="og:description"
+        content="La Reina del Sur, Orgullo de nuestras manos.">
+    <meta property="og:image" content="./assets/img/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="La Reina del Sur">
+    <meta property="twitter:description"
+        content="La Reina del Sur, Orgullo de nuestras manos.">
+    <meta property="twitter:image" content="./assets/img/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero2">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">La Reina del Sur.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="about.html" class="nav__links">Sobre Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="others.html" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./assets/icons/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./assets/icons/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Contacto.</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="contact-section">
+        <p>¿Tienes preguntas, quieres colaborar o comprar nuestros productos? Estamos para ayudarte.</p>
+
+        <form class="contact-form" action="https://formspree.io/f/tu_codigo_aqui" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="_replyto" placeholder="tu@email.com" required>
+
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Opcional">
+
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" placeholder="Motivo del mensaje" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">La Reina del Sur.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="about.html" class="nav__links">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete para más información</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./assets/icons/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./assets/icons/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./assets/icons/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">&copy; 2025 La Reina del Sur - Todos los derechos reservados.</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
